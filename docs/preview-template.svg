@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-label="Plantilla preview app Swing JTable">
+  <title>Preview plantilla - UT5.2 JTable</title>
+  <defs>
+    <style>
+      .app-font { font-family: "Segoe UI", Arial, Helvetica, sans-serif; fill: #272c34; }
+      .title { font-size: 26px; font-weight: 700; }
+      .subtitle { font-size: 19px; font-weight: 700; }
+      .hint { font-size: 16px; fill: #5b6572; }
+      .head { font-size: 21px; font-weight: 700; }
+      .row { font-size: 16px; }
+      .btn { font-size: 17px; font-weight: 700; }
+      .status { font-size: 16px; font-weight: 700; }
+      .ok { fill: #2b8a3e; }
+    </style>
+  </defs>
+
+  <!-- Fondo general -->
+  <rect width="1600" height="960" fill="#eceff3"/>
+
+  <!-- Ventana principal -->
+  <rect x="8" y="10" width="1584" height="940" rx="18" fill="#d9dde2" stroke="#c4cbd3" stroke-width="2"/>
+
+  <!-- Barra de titulo -->
+  <rect x="8" y="10" width="1584" height="44" rx="18" fill="#d7d7d7"/>
+  <circle cx="30" cy="32" r="10" fill="#ff5f57"/>
+  <circle cx="60" cy="32" r="10" fill="#febc2e"/>
+  <circle cx="90" cy="32" r="10" fill="#28c840"/>
+  <text x="800" y="38" text-anchor="middle" class="app-font" style="font-size:22px;font-weight:700;fill:#454545;">UT5.2 - Gestion de Productos con JTable</text>
+
+  <!-- Encabezado -->
+  <text x="30" y="110" class="app-font title">UT5.2 - Interfaces Graficas con Java Swing</text>
+  <text x="30" y="152" class="app-font hint">JTable + eventos + dialogos + modelo de datos</text>
+
+  <!-- Panel tabla -->
+  <rect x="32" y="176" width="1536" height="678" fill="#e7e7e7" stroke="#b8c2cc" stroke-width="2"/>
+  <text x="52" y="214" class="app-font hint">Tip: puedes ordenar pulsando sobre el encabezado de cada columna.</text>
+
+  <!-- Cabecera tabla -->
+  <rect x="52" y="234" width="1496" height="34" fill="#b9c9e9"/>
+  <line x1="425" y1="234" x2="425" y2="268" stroke="#93a8cf" stroke-width="2"/>
+  <line x1="793" y1="234" x2="793" y2="268" stroke="#93a8cf" stroke-width="2"/>
+  <line x1="1162" y1="234" x2="1162" y2="268" stroke="#93a8cf" stroke-width="2"/>
+  <text x="60" y="259" class="app-font head">ID</text>
+  <text x="432" y="259" class="app-font head">Producto</text>
+  <text x="802" y="259" class="app-font head">Categoria</text>
+  <text x="1170" y="259" class="app-font head">Precio</text>
+
+  <!-- Filas -->
+  <rect x="52" y="300" width="1496" height="46" fill="#ececec"/>
+  <rect x="52" y="346" width="1496" height="46" fill="#d6dce2"/>
+  <rect x="52" y="392" width="1496" height="46" fill="#ececec"/>
+  <rect x="52" y="438" width="1496" height="46" fill="#d6dce2"/>
+  <rect x="52" y="484" width="1496" height="46" fill="#ececec"/>
+
+  <text x="212" y="332" class="app-font row">P001</text>
+  <text x="435" y="332" class="app-font row">Portatil 15&quot;</text>
+  <text x="805" y="332" class="app-font row">Informatica</text>
+  <text x="1434" y="332" text-anchor="end" class="app-font row">849,99 EUR</text>
+
+  <text x="212" y="378" class="app-font row">P002</text>
+  <text x="435" y="378" class="app-font row">Raton inalambrico</text>
+  <text x="805" y="378" class="app-font row">Perifericos</text>
+  <text x="1434" y="378" text-anchor="end" class="app-font row">24,95 EUR</text>
+
+  <text x="212" y="424" class="app-font row">P003</text>
+  <text x="435" y="424" class="app-font row">Teclado mecanico</text>
+  <text x="805" y="424" class="app-font row">Perifericos</text>
+  <text x="1434" y="424" text-anchor="end" class="app-font row">69,90 EUR</text>
+
+  <text x="212" y="470" class="app-font row">P004</text>
+  <text x="435" y="470" class="app-font row">Monitor 27&quot;</text>
+  <text x="805" y="470" class="app-font row">Informatica</text>
+  <text x="1434" y="470" text-anchor="end" class="app-font row">219,00 EUR</text>
+
+  <text x="212" y="516" class="app-font row">P005</text>
+  <text x="435" y="516" class="app-font row">Pendrive 128GB</text>
+  <text x="805" y="516" class="app-font row">Almacenamiento</text>
+  <text x="1434" y="516" text-anchor="end" class="app-font row">17,50 EUR</text>
+
+  <!-- Zona vacia de tabla -->
+  <rect x="52" y="530" width="1496" height="304" fill="#d6dce2"/>
+
+  <!-- Botones -->
+  <rect x="48" y="878" width="226" height="38" rx="8" fill="#2f87da" stroke="#2a6eb3" stroke-width="2"/>
+  <text x="161" y="904" text-anchor="middle" class="app-font btn" style="fill:#ffffff;">Agregar producto</text>
+
+  <rect x="294" y="878" width="276" height="38" rx="8" fill="#2f87da" stroke="#2a6eb3" stroke-width="2"/>
+  <text x="432" y="904" text-anchor="middle" class="app-font btn" style="fill:#ffffff;">Eliminar seleccionado</text>
+
+  <rect x="590" y="878" width="184" height="38" rx="8" fill="#e7ebf1" stroke="#6f8194" stroke-width="2"/>
+  <text x="682" y="904" text-anchor="middle" class="app-font btn">Limpiar tabla</text>
+
+  <!-- Resumen -->
+  <text x="1540" y="895" text-anchor="end" class="app-font status">Total de productos: 5</text>
+  <text x="1540" y="927" text-anchor="end" class="app-font status ok" style="font-weight:500;">Seleccion actual: ninguna</text>
+</svg>
